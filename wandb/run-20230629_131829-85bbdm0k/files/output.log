@@ -1,0 +1,25 @@
+Epoch 1/8
+47/47 [==============================] - ETA: 0s - loss: 2.1274 - accuracy: 0.2699
+[34m[1mwandb[39m[22m: Adding directory to artifact (./models)... Done. 0.1s
+47/47 [==============================] - 2s 32ms/step - loss: 2.1274 - accuracy: 0.2699 - val_loss: 1.8415 - val_accuracy: 0.6040
+Epoch 2/8
+44/47 [===========================>..] - ETA: 0s - loss: 1.7314 - accuracy: 0.5384
+47/47 [==============================] - 1s 22ms/step - loss: 1.7223 - accuracy: 0.5426 - val_loss: 1.4968 - val_accuracy: 0.7060
+Epoch 3/8
+46/47 [============================>.] - ETA: 0s - loss: 1.4315 - accuracy: 0.6641
+47/47 [==============================] - 2s 33ms/step - loss: 1.4287 - accuracy: 0.6656 - val_loss: 1.2448 - val_accuracy: 0.7620
+Epoch 4/8
+42/47 [=========================>....] - ETA: 0s - loss: 1.2246 - accuracy: 0.7184
+47/47 [==============================] - 1s 24ms/step - loss: 1.2168 - accuracy: 0.7188 - val_loss: 1.0625 - val_accuracy: 0.8020
+Epoch 5/8
+45/47 [===========================>..] - ETA: 0s - loss: 1.0707 - accuracy: 0.7484
+47/47 [==============================] - 1s 21ms/step - loss: 1.0669 - accuracy: 0.7507 - val_loss: 0.9312 - val_accuracy: 0.8140
+Epoch 6/8
+46/47 [============================>.] - ETA: 0s - loss: 0.9563 - accuracy: 0.7756
+47/47 [==============================] - 2s 33ms/step - loss: 0.9554 - accuracy: 0.7755 - val_loss: 0.8339 - val_accuracy: 0.8240
+Epoch 7/8
+46/47 [============================>.] - ETA: 0s - loss: 0.8695 - accuracy: 0.7918
+47/47 [==============================] - 1s 21ms/step - loss: 0.8691 - accuracy: 0.7918 - val_loss: 0.7611 - val_accuracy: 0.8260
+Epoch 8/8
+
+47/47 [==============================] - 1s 23ms/step - loss: 0.7958 - accuracy: 0.8027 - val_loss: 0.7043 - val_accuracy: 0.8340

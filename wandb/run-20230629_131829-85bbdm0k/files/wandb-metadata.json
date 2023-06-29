@@ -1,0 +1,34 @@
+{
+    "os": "macOS-13.4.1-arm64-arm-64bit",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-06-29T18:18:30.583010",
+    "startedAt": "2023-06-29T18:18:29.503599",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/umbertofasci/wandb_mnist_test/wandb_mnist_script.py",
+    "codePath": "wandb_mnist_script.py",
+    "git": {
+        "remote": "https://github.com/UmbertoFasci/wandb_mnist_test.git",
+        "commit": "0b4581e89cdac9bb51736ae9f469f4aaa5252cd6"
+    },
+    "email": "uj_fasci@icloud.com",
+    "root": "/Users/umbertofasci/wandb_mnist_test",
+    "host": "Workstation-1372.lan",
+    "username": "umbertofasci",
+    "executable": "/Users/umbertofasci/miniforge3/envs/tf2/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 121.56132507324219
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}
