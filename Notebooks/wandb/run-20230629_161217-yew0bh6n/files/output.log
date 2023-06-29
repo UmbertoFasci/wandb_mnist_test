@@ -1,0 +1,31 @@
+
+Start of epoch 0
+Training acc over epoch: 0.4442
+Validation acc: 0.6747
+Start of epoch 1
+Training acc over epoch: 0.7424
+Validation acc: 0.7743
+Start of epoch 2
+Training acc over epoch: 0.8242
+Validation acc: 0.8523
+Start of epoch 3
+Training acc over epoch: 0.8539
+Validation acc: 0.8548
+Start of epoch 4
+Training acc over epoch: 0.8644
+Validation acc: 0.8554
+Start of epoch 5
+Training acc over epoch: 0.8719
+Validation acc: 0.8604
+Start of epoch 6
+Training acc over epoch: 0.8878
+Validation acc: 0.8809
+Start of epoch 7
+Training acc over epoch: 0.8984
+Validation acc: 0.8936
+Start of epoch 8
+Training acc over epoch: 0.9025
+Validation acc: 0.9018
+Start of epoch 9
+Training acc over epoch: 0.9069
+Validation acc: 0.8975
