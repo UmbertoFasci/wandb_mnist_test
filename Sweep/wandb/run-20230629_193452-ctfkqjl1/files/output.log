@@ -1,0 +1,12 @@
+Metal device set to: Apple M1 Max
+systemMemory: 32.00 GB
+maxCacheSize: 10.67 GB
+Start of epoch 0
+ 71%|███████   | 167/235 [00:01<00:00, 110.12it/s]
+Training acc over epoch: 0.1138
+Validation acc: 0.1264
+100%|██████████| 235/235 [00:02<00:00, 102.99it/s]
+ 50%|█████     | 118/235 [00:01<00:01, 108.00it/s]
+Training acc over epoch: 0.1414
+
+100%|██████████| 235/235 [00:02<00:00, 110.48it/s]

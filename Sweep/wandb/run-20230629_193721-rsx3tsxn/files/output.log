@@ -1,0 +1,24 @@
+
+Start of epoch 0
+
+
+
+
+
+
+
+100%|██████████| 1875/1875 [00:15<00:00, 122.30it/s]
+Training acc over epoch: 0.1783
+Validation acc: 0.2114
+Start of epoch 1
+
+
+
+
+
+
+
+
+100%|██████████| 1875/1875 [00:15<00:00, 122.63it/s]
+Training acc over epoch: 0.2337
+Validation acc: 0.2536

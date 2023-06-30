@@ -1,0 +1,16 @@
+
+Start of epoch 0
+
+
+
+100%|██████████| 938/938 [00:07<00:00, 126.00it/s]
+ 17%|█▋        | 163/938 [00:01<00:06, 121.30it/s]
+Training acc over epoch: 0.6408
+Validation acc: 0.8336
+
+
+
+
+100%|██████████| 938/938 [00:07<00:00, 121.49it/s]
+Training acc over epoch: 0.8599
+Validation acc: 0.8845

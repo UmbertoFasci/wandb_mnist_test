@@ -1,0 +1,219 @@
+2023-06-29 19:38:08,436 INFO    StreamThr :6507 [internal.py:wandb_internal():86] W&B internal server running at pid: 6507, started at: 2023-06-29 19:38:08.436160
+2023-06-29 19:38:08,437 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: status
+2023-06-29 19:38:08,446 INFO    WriterThread:6507 [datastore.py:open_for_write():85] open: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/run-770etvi9.wandb
+2023-06-29 19:38:08,447 DEBUG   SenderThread:6507 [sender.py:send():369] send: header
+2023-06-29 19:38:08,483 DEBUG   SenderThread:6507 [sender.py:send():369] send: run
+2023-06-29 19:38:09,040 INFO    SenderThread:6507 [dir_watcher.py:__init__():211] watching files in: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files
+2023-06-29 19:38:09,040 INFO    SenderThread:6507 [sender.py:_start_run_threads():1100] run started: 770etvi9 with start time 1688085488.434286
+2023-06-29 19:38:09,047 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: summary_record
+2023-06-29 19:38:09,048 INFO    SenderThread:6507 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-29 19:38:09,055 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: check_version
+2023-06-29 19:38:09,055 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: check_version
+2023-06-29 19:38:09,415 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: run_start
+2023-06-29 19:38:09,430 DEBUG   HandlerThread:6507 [system_info.py:__init__():31] System info init
+2023-06-29 19:38:09,430 DEBUG   HandlerThread:6507 [system_info.py:__init__():46] System info init done
+2023-06-29 19:38:09,431 INFO    HandlerThread:6507 [system_monitor.py:start():181] Starting system monitor
+2023-06-29 19:38:09,431 INFO    SystemMonitor:6507 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-29 19:38:09,431 INFO    HandlerThread:6507 [system_monitor.py:probe():201] Collecting system info
+2023-06-29 19:38:09,432 DEBUG   HandlerThread:6507 [system_info.py:probe():195] Probing system
+2023-06-29 19:38:09,432 INFO    SystemMonitor:6507 [interfaces.py:start():190] Started cpu monitoring
+2023-06-29 19:38:09,433 INFO    SystemMonitor:6507 [interfaces.py:start():190] Started disk monitoring
+2023-06-29 19:38:09,433 INFO    SystemMonitor:6507 [interfaces.py:start():190] Started gpuapple monitoring
+2023-06-29 19:38:09,436 INFO    SystemMonitor:6507 [interfaces.py:start():190] Started memory monitoring
+2023-06-29 19:38:09,439 INFO    SystemMonitor:6507 [interfaces.py:start():190] Started network monitoring
+2023-06-29 19:38:09,444 DEBUG   HandlerThread:6507 [system_info.py:_probe_git():180] Probing git
+2023-06-29 19:38:09,458 DEBUG   HandlerThread:6507 [system_info.py:_probe_git():188] Probing git done
+2023-06-29 19:38:09,458 DEBUG   HandlerThread:6507 [system_info.py:probe():240] Probing system done
+2023-06-29 19:38:09,458 DEBUG   HandlerThread:6507 [system_monitor.py:probe():210] {'os': 'macOS-13.4.1-arm64-arm-64bit', 'python': '3.10.12', 'heartbeatAt': '2023-06-30T00:38:09.432503', 'startedAt': '2023-06-30T00:38:08.408019', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/UmbertoFasci/wandb_mnist_test.git', 'commit': '0e8777aff2158f0f1d7d92d6391e1a60713869b7'}, 'email': 'uj_fasci@icloud.com', 'root': '/Users/umbertofasci/wandb_mnist_test', 'host': 'Workstation-1383.lan', 'username': 'umbertofasci', 'executable': '/Users/umbertofasci/miniforge3/envs/tf2/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'total': 460.4317207336426, 'used': 121.77011108398438}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 32.0}}
+2023-06-29 19:38:09,458 INFO    HandlerThread:6507 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-29 19:38:09,458 INFO    HandlerThread:6507 [system_monitor.py:probe():214] Publishing system info
+2023-06-29 19:38:09,458 DEBUG   HandlerThread:6507 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-29 19:38:09,458 DEBUG   HandlerThread:6507 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-29 19:38:09,458 DEBUG   HandlerThread:6507 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-29 19:38:10,043 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/requirements.txt
+2023-06-29 19:38:10,043 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/wandb-summary.json
+2023-06-29 19:38:10,043 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/conda-environment.yaml
+2023-06-29 19:38:11,048 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/conda-environment.yaml
+2023-06-29 19:38:11,056 DEBUG   HandlerThread:6507 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-29 19:38:11,057 INFO    HandlerThread:6507 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-29 19:38:11,061 DEBUG   SenderThread:6507 [sender.py:send():369] send: files
+2023-06-29 19:38:11,061 INFO    SenderThread:6507 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-06-29 19:38:11,070 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-29 19:38:11,071 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: stop_status
+2023-06-29 19:38:11,404 DEBUG   SenderThread:6507 [sender.py:send():369] send: telemetry
+2023-06-29 19:38:11,404 DEBUG   SenderThread:6507 [sender.py:send():369] send: telemetry
+2023-06-29 19:38:11,404 DEBUG   SenderThread:6507 [sender.py:send():369] send: config
+2023-06-29 19:38:11,404 DEBUG   SenderThread:6507 [sender.py:send():369] send: config
+2023-06-29 19:38:11,404 DEBUG   SenderThread:6507 [sender.py:send():369] send: config
+2023-06-29 19:38:11,404 DEBUG   SenderThread:6507 [sender.py:send():369] send: config
+2023-06-29 19:38:11,404 DEBUG   SenderThread:6507 [sender.py:send():369] send: config
+2023-06-29 19:38:11,711 INFO    wandb-upload_0:6507 [upload_job.py:push():133] Uploaded file /var/folders/6p/ts94gtgs46x6jl_kpdqfp08h0000gn/T/tmpet8xxf3fwandb/9oyqzifa-wandb-metadata.json
+2023-06-29 19:38:12,049 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:12,049 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/wandb-metadata.json
+2023-06-29 19:38:13,518 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: status_report
+2023-06-29 19:38:14,050 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:16,055 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:18,060 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:18,565 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: status_report
+2023-06-29 19:38:20,064 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:22,070 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:23,593 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: status_report
+2023-06-29 19:38:24,074 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:26,072 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-29 19:38:26,073 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: stop_status
+2023-06-29 19:38:26,076 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:28,077 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:28,086 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-29 19:38:28,088 DEBUG   SenderThread:6507 [sender.py:send():369] send: history
+2023-06-29 19:38:28,088 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: summary_record
+2023-06-29 19:38:28,088 INFO    SenderThread:6507 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-29 19:38:28,612 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: status_report
+2023-06-29 19:38:29,078 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/wandb-summary.json
+2023-06-29 19:38:30,079 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:32,086 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:33,663 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: status_report
+2023-06-29 19:38:34,087 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:36,089 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:38,095 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:38,731 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: status_report
+2023-06-29 19:38:39,097 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/config.yaml
+2023-06-29 19:38:40,099 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:41,072 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-29 19:38:41,073 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: stop_status
+2023-06-29 19:38:42,104 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:44,110 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:44,313 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: status_report
+2023-06-29 19:38:44,938 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-29 19:38:44,939 DEBUG   SenderThread:6507 [sender.py:send():369] send: history
+2023-06-29 19:38:44,939 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: summary_record
+2023-06-29 19:38:44,939 INFO    SenderThread:6507 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-29 19:38:44,946 DEBUG   SenderThread:6507 [sender.py:send():369] send: telemetry
+2023-06-29 19:38:44,946 DEBUG   SenderThread:6507 [sender.py:send():369] send: exit
+2023-06-29 19:38:44,946 INFO    SenderThread:6507 [sender.py:send_exit():574] handling exit code: 0
+2023-06-29 19:38:44,946 INFO    SenderThread:6507 [sender.py:send_exit():576] handling runtime: 35
+2023-06-29 19:38:44,947 INFO    SenderThread:6507 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-29 19:38:44,947 INFO    SenderThread:6507 [sender.py:send_exit():582] send defer
+2023-06-29 19:38:44,947 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:44,947 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-29 19:38:44,947 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:44,947 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-06-29 19:38:44,947 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 1
+2023-06-29 19:38:44,947 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:44,947 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-29 19:38:44,947 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:44,947 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-06-29 19:38:44,947 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 2
+2023-06-29 19:38:44,947 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:44,947 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-29 19:38:44,947 INFO    HandlerThread:6507 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-29 19:38:44,947 DEBUG   SystemMonitor:6507 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-29 19:38:44,948 INFO    HandlerThread:6507 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-29 19:38:44,948 DEBUG   SystemMonitor:6507 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-29 19:38:44,948 INFO    HandlerThread:6507 [interfaces.py:finish():202] Joined disk monitor
+2023-06-29 19:38:44,948 DEBUG   SystemMonitor:6507 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-29 19:38:44,948 INFO    HandlerThread:6507 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-06-29 19:38:44,948 INFO    HandlerThread:6507 [interfaces.py:finish():202] Joined memory monitor
+2023-06-29 19:38:44,948 INFO    HandlerThread:6507 [interfaces.py:finish():202] Joined network monitor
+2023-06-29 19:38:44,949 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:44,949 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-06-29 19:38:44,949 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 3
+2023-06-29 19:38:44,949 DEBUG   SenderThread:6507 [sender.py:send():369] send: telemetry
+2023-06-29 19:38:44,949 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:44,949 DEBUG   SenderThread:6507 [sender.py:send():369] send: stats
+2023-06-29 19:38:44,949 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-29 19:38:44,949 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:44,949 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-06-29 19:38:44,949 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 4
+2023-06-29 19:38:44,949 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:44,949 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-29 19:38:44,949 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:44,949 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-06-29 19:38:44,949 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 5
+2023-06-29 19:38:44,949 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:44,949 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-29 19:38:44,949 DEBUG   SenderThread:6507 [sender.py:send():369] send: summary
+2023-06-29 19:38:44,950 INFO    SenderThread:6507 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-29 19:38:44,950 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:44,950 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-06-29 19:38:44,950 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 6
+2023-06-29 19:38:44,950 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:44,950 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-29 19:38:44,950 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:44,950 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-06-29 19:38:44,952 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: status_report
+2023-06-29 19:38:45,056 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 7
+2023-06-29 19:38:45,057 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:45,057 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-29 19:38:45,057 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:45,057 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-06-29 19:38:45,115 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/wandb-summary.json
+2023-06-29 19:38:45,115 INFO    Thread-12 :6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/config.yaml
+2023-06-29 19:38:45,587 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 8
+2023-06-29 19:38:45,590 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:45,591 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-29 19:38:45,591 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:45,591 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-06-29 19:38:45,591 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 9
+2023-06-29 19:38:45,592 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:45,592 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-29 19:38:45,593 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:45,593 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-06-29 19:38:45,593 INFO    SenderThread:6507 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-06-29 19:38:45,953 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-29 19:38:46,119 INFO    SenderThread:6507 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:46,122 INFO    SenderThread:6507 [dir_watcher.py:finish():389] scan: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files
+2023-06-29 19:38:46,123 INFO    SenderThread:6507 [dir_watcher.py:finish():403] scan save: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/requirements.txt requirements.txt
+2023-06-29 19:38:46,124 INFO    SenderThread:6507 [dir_watcher.py:finish():403] scan save: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log output.log
+2023-06-29 19:38:46,124 INFO    SenderThread:6507 [dir_watcher.py:finish():403] scan save: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/config.yaml config.yaml
+2023-06-29 19:38:46,124 INFO    SenderThread:6507 [dir_watcher.py:finish():403] scan save: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/wandb-summary.json wandb-summary.json
+2023-06-29 19:38:46,125 INFO    SenderThread:6507 [dir_watcher.py:finish():403] scan save: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/conda-environment.yaml conda-environment.yaml
+2023-06-29 19:38:46,125 INFO    SenderThread:6507 [dir_watcher.py:finish():403] scan save: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/wandb-metadata.json wandb-metadata.json
+2023-06-29 19:38:46,126 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 10
+2023-06-29 19:38:46,127 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: poll_exit
+2023-06-29 19:38:46,128 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:46,142 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-29 19:38:46,148 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:46,149 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-06-29 19:38:46,152 INFO    SenderThread:6507 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-29 19:38:46,566 INFO    wandb-upload_0:6507 [upload_job.py:push():133] Uploaded file /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/requirements.txt
+2023-06-29 19:38:46,802 INFO    wandb-upload_1:6507 [upload_job.py:push():133] Uploaded file /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/output.log
+2023-06-29 19:38:46,814 INFO    wandb-upload_4:6507 [upload_job.py:push():133] Uploaded file /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/conda-environment.yaml
+2023-06-29 19:38:46,961 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-29 19:38:46,966 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: poll_exit
+2023-06-29 19:38:47,188 INFO    wandb-upload_3:6507 [upload_job.py:push():133] Uploaded file /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/wandb-summary.json
+2023-06-29 19:38:47,188 INFO    wandb-upload_2:6507 [upload_job.py:push():133] Uploaded file /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/files/config.yaml
+2023-06-29 19:38:47,390 INFO    Thread-11 (_thread_body):6507 [sender.py:transition_state():602] send defer: 11
+2023-06-29 19:38:47,393 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:47,393 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-29 19:38:47,394 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:47,394 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-06-29 19:38:47,395 INFO    SenderThread:6507 [file_pusher.py:join():164] waiting for file pusher
+2023-06-29 19:38:47,395 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 12
+2023-06-29 19:38:47,395 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:47,395 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-29 19:38:47,396 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:47,396 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-06-29 19:38:47,498 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 13
+2023-06-29 19:38:47,499 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:47,500 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-29 19:38:47,500 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:47,500 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-06-29 19:38:47,501 INFO    SenderThread:6507 [sender.py:transition_state():602] send defer: 14
+2023-06-29 19:38:47,501 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: defer
+2023-06-29 19:38:47,502 INFO    HandlerThread:6507 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-29 19:38:47,502 DEBUG   SenderThread:6507 [sender.py:send():369] send: final
+2023-06-29 19:38:47,502 DEBUG   SenderThread:6507 [sender.py:send():369] send: footer
+2023-06-29 19:38:47,503 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: defer
+2023-06-29 19:38:47,503 INFO    SenderThread:6507 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-06-29 19:38:47,509 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-29 19:38:47,511 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: server_info
+2023-06-29 19:38:47,512 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-29 19:38:47,512 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-29 19:38:47,514 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: poll_exit
+2023-06-29 19:38:47,515 DEBUG   SenderThread:6507 [sender.py:send_request():396] send_request: server_info
+2023-06-29 19:38:47,653 DEBUG   HandlerThread:6507 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-29 19:38:47,653 INFO    HandlerThread:6507 [handler.py:finish():854] shutting down handler
+2023-06-29 19:38:48,517 INFO    WriterThread:6507 [datastore.py:close():298] close: /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193808-770etvi9/run-770etvi9.wandb
+2023-06-29 19:38:48,652 INFO    SenderThread:6507 [sender.py:finish():1526] shutting down sender
+2023-06-29 19:38:48,652 INFO    SenderThread:6507 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-29 19:38:48,652 INFO    SenderThread:6507 [file_pusher.py:join():164] waiting for file pusher

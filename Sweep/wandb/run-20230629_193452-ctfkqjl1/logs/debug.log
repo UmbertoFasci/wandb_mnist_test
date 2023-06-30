@@ -1,0 +1,50 @@
+2023-06-29 19:34:52,636 INFO    Thread-5 (_run_job):6361 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-29 19:34:52,636 INFO    Thread-5 (_run_job):6361 [wandb_setup.py:_flush():76] Configure stats pid to 6361
+2023-06-29 19:34:52,636 INFO    Thread-5 (_run_job):6361 [wandb_setup.py:_flush():76] Loading settings from /Users/umbertofasci/.config/wandb/settings
+2023-06-29 19:34:52,637 INFO    Thread-5 (_run_job):6361 [wandb_setup.py:_flush():76] Loading settings from /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/settings
+2023-06-29 19:34:52,637 INFO    Thread-5 (_run_job):6361 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'sweeps-tensorflow', 'entity': 'uj_fasci', 'root_dir': '/Users/umbertofasci/wandb_mnist_test/Sweep', 'sweep_id': 'vdgz7m7k', 'run_id': 'ctfkqjl1', 'sweep_param_path': '/Users/umbertofasci/wandb_mnist_test/Sweep/wandb/sweep-vdgz7m7k/config-ctfkqjl1.yaml'}
+2023-06-29 19:34:52,637 INFO    Thread-5 (_run_job):6361 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-29 19:34:52,637 INFO    Thread-5 (_run_job):6361 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-29 19:34:52,637 INFO    Thread-5 (_run_job):6361 [wandb_init.py:_log_setup():507] Logging user logs to /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193452-ctfkqjl1/logs/debug.log
+2023-06-29 19:34:52,637 INFO    Thread-5 (_run_job):6361 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/umbertofasci/wandb_mnist_test/Sweep/wandb/run-20230629_193452-ctfkqjl1/logs/debug-internal.log
+2023-06-29 19:34:52,637 INFO    Thread-5 (_run_job):6361 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x105a33220>
+2023-06-29 19:34:52,638 INFO    Thread-5 (_run_job):6361 [wandb_init.py:init():547] calling init triggers
+2023-06-29 19:34:52,638 INFO    Thread-5 (_run_job):6361 [wandb_init.py:init():554] wandb.init called with sweep_config: {'batch_size': 256, 'learning_rate': 0.0005}
+config: {'batch_size': 64, 'learning_rate': 0.01}
+2023-06-29 19:34:52,638 INFO    Thread-5 (_run_job):6361 [wandb_init.py:init():596] starting backend
+2023-06-29 19:34:52,638 INFO    Thread-5 (_run_job):6361 [wandb_init.py:init():600] setting up manager
+2023-06-29 19:34:52,653 INFO    Thread-5 (_run_job):6361 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-06-29 19:34:52,657 INFO    Thread-5 (_run_job):6361 [wandb_init.py:init():606] backend started and connected
+2023-06-29 19:34:52,665 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_config_callback():1283] config_cb None None {'batch_size': 256, 'learning_rate': 0.0005}
+2023-06-29 19:34:52,667 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_label_probe_notebook():1235] probe notebook
+2023-06-29 19:34:52,667 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_label_probe_notebook():1245] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-06-29 19:34:52,667 INFO    Thread-5 (_run_job):6361 [wandb_init.py:init():703] updated telemetry
+2023-06-29 19:34:52,682 INFO    Thread-5 (_run_job):6361 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-06-29 19:34:53,251 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_on_init():2176] communicating current version
+2023-06-29 19:34:53,442 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_on_init():2185] got version response 
+2023-06-29 19:34:53,442 INFO    Thread-5 (_run_job):6361 [wandb_init.py:init():787] starting run threads in backend
+2023-06-29 19:34:55,095 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_console_start():2155] atexit reg
+2023-06-29 19:34:55,095 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-06-29 19:34:55,096 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-06-29 19:34:55,096 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-06-29 19:34:55,096 INFO    Thread-5 (_run_job):6361 [wandb_init.py:init():828] run started, returning control to user process
+2023-06-29 19:34:55,096 INFO    Thread-5 (_run_job):6361 [wandb_config.py:__setitem__():152] config set epochs = 2 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x2e1fdedd0>>
+2023-06-29 19:34:55,096 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_config_callback():1283] config_cb epochs 2 None
+2023-06-29 19:34:55,097 INFO    Thread-5 (_run_job):6361 [wandb_config.py:__setitem__():152] config set log_step = 20 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x2e1fdedd0>>
+2023-06-29 19:34:55,097 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_config_callback():1283] config_cb log_step 20 None
+2023-06-29 19:34:55,097 INFO    Thread-5 (_run_job):6361 [wandb_config.py:__setitem__():152] config set val_log_step = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x2e1fdedd0>>
+2023-06-29 19:34:55,097 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_config_callback():1283] config_cb val_log_step 50 None
+2023-06-29 19:34:55,097 INFO    Thread-5 (_run_job):6361 [wandb_config.py:__setitem__():152] config set architecture_name = MLP - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x2e1fdedd0>>
+2023-06-29 19:34:55,097 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_config_callback():1283] config_cb architecture_name MLP None
+2023-06-29 19:34:55,097 INFO    Thread-5 (_run_job):6361 [wandb_config.py:__setitem__():152] config set dataset_name = MNIST - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x2e1fdedd0>>
+2023-06-29 19:34:55,097 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_config_callback():1283] config_cb dataset_name MNIST None
+2023-06-29 19:35:00,268 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_finish():1890] finishing run uj_fasci/sweeps-tensorflow/ctfkqjl1
+2023-06-29 19:35:00,269 INFO    Thread-5 (_run_job):6361 [jupyter.py:save_history():445] not saving jupyter history
+2023-06-29 19:35:00,269 INFO    Thread-5 (_run_job):6361 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-06-29 19:35:00,269 INFO    Thread-5 (_run_job):6361 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-06-29 19:35:00,269 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_atexit_cleanup():2124] got exitcode: 0
+2023-06-29 19:35:00,269 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_restore():2107] restore
+2023-06-29 19:35:00,269 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_restore():2113] restore done
+2023-06-29 19:35:04,932 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-06-29 19:35:04,932 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-06-29 19:35:04,940 INFO    Thread-5 (_run_job):6361 [wandb_run.py:_footer_sync_info():3426] logging synced files
